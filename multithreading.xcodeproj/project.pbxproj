@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F03F569728044BEF00360B65 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F569628044BEF00360B65 /* main.swift */; };
+		F03F56A228044D2200360B65 /* Thread & Pthread.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F56A128044D2200360B65 /* Thread & Pthread.swift */; };
+		F03F56A428045A4100360B65 /* Quality of service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F56A328045A4100360B65 /* Quality of service.swift */; };
+		F03F56A728045BB900360B65 /* QualityOfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F56A628045BB900360B65 /* QualityOfService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +29,9 @@
 		F03F569328044BEF00360B65 /* multithreading */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = multithreading; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03F569628044BEF00360B65 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F03F569D28044CD100360B65 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F03F56A128044D2200360B65 /* Thread & Pthread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thread & Pthread.swift"; sourceTree = "<group>"; };
+		F03F56A328045A4100360B65 /* Quality of service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quality of service.swift"; sourceTree = "<group>"; };
+		F03F56A628045BB900360B65 /* QualityOfService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualityOfService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,43 @@
 			isa = PBXGroup;
 			children = (
 				F03F569628044BEF00360B65 /* main.swift */,
+				F03F56A528045BA100360B65 /* Summaries */,
+				F03F569E28044CF000360B65 /* The Swift Developers */,
 			);
 			path = multithreading;
+			sourceTree = "<group>";
+		};
+		F03F569E28044CF000360B65 /* The Swift Developers */ = {
+			isa = PBXGroup;
+			children = (
+				F03F56A128044D2200360B65 /* Thread & Pthread.swift */,
+				F03F56A328045A4100360B65 /* Quality of service.swift */,
+				F03F569F28044CFC00360B65 /* GCD */,
+				F03F56A028044D0100360B65 /* Operation */,
+			);
+			path = "The Swift Developers";
+			sourceTree = "<group>";
+		};
+		F03F569F28044CFC00360B65 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		F03F56A028044D0100360B65 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		F03F56A528045BA100360B65 /* Summaries */ = {
+			isa = PBXGroup;
+			children = (
+				F03F56A628045BB900360B65 /* QualityOfService.swift */,
+			);
+			path = Summaries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F03F569728044BEF00360B65 /* main.swift in Sources */,
+				F03F56A228044D2200360B65 /* Thread & Pthread.swift in Sources */,
+				F03F56A728045BB900360B65 /* QualityOfService.swift in Sources */,
+				F03F56A428045A4100360B65 /* Quality of service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

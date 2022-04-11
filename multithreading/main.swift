@@ -7,5 +7,11 @@
 
 import Foundation
 
-print("Hello, World!")
+/// # The swift developers
+/// 1. Thread & Pthread
+//unixPosix()
+//threadAndPthread()
 
+/// 2. Quality of service
+qosPthread()
+qosNsThread()
