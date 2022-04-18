@@ -11,6 +11,8 @@
 		F03F56A228044D2200360B65 /* Thread & Pthread.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F56A128044D2200360B65 /* Thread & Pthread.swift */; };
 		F03F56A428045A4100360B65 /* Quality of service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F56A328045A4100360B65 /* Quality of service.swift */; };
 		F03F56A728045BB900360B65 /* QualityOfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F56A628045BB900360B65 /* QualityOfService.swift */; };
+		F0B1F36A280D42C9003A4077 /* Synchronisation & Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1F369280D42C9003A4077 /* Synchronisation & Mutex.swift */; };
+		F0B1F36C280D4754003A4077 /* NSRecursiveLock & Mutex Recursive lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1F36B280D4754003A4077 /* NSRecursiveLock & Mutex Recursive lock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +34,8 @@
 		F03F56A128044D2200360B65 /* Thread & Pthread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thread & Pthread.swift"; sourceTree = "<group>"; };
 		F03F56A328045A4100360B65 /* Quality of service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quality of service.swift"; sourceTree = "<group>"; };
 		F03F56A628045BB900360B65 /* QualityOfService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualityOfService.swift; sourceTree = "<group>"; };
+		F0B1F369280D42C9003A4077 /* Synchronisation & Mutex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Synchronisation & Mutex.swift"; sourceTree = "<group>"; };
+		F0B1F36B280D4754003A4077 /* NSRecursiveLock & Mutex Recursive lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSRecursiveLock & Mutex Recursive lock.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +79,7 @@
 		F03F569E28044CF000360B65 /* The Swift Developers */ = {
 			isa = PBXGroup;
 			children = (
-				F03F56A128044D2200360B65 /* Thread & Pthread.swift */,
-				F03F56A328045A4100360B65 /* Quality of service.swift */,
+				F0B1F36D280D4759003A4077 /* Thread */,
 				F03F569F28044CFC00360B65 /* GCD */,
 				F03F56A028044D0100360B65 /* Operation */,
 			);
@@ -103,6 +106,17 @@
 				F03F56A628045BB900360B65 /* QualityOfService.swift */,
 			);
 			path = Summaries;
+			sourceTree = "<group>";
+		};
+		F0B1F36D280D4759003A4077 /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				F03F56A128044D2200360B65 /* Thread & Pthread.swift */,
+				F03F56A328045A4100360B65 /* Quality of service.swift */,
+				F0B1F369280D42C9003A4077 /* Synchronisation & Mutex.swift */,
+				F0B1F36B280D4754003A4077 /* NSRecursiveLock & Mutex Recursive lock.swift */,
+			);
+			path = Thread;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +178,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F03F569728044BEF00360B65 /* main.swift in Sources */,
+				F0B1F36C280D4754003A4077 /* NSRecursiveLock & Mutex Recursive lock.swift in Sources */,
 				F03F56A228044D2200360B65 /* Thread & Pthread.swift in Sources */,
+				F0B1F36A280D42C9003A4077 /* Synchronisation & Mutex.swift in Sources */,
 				F03F56A728045BB900360B65 /* QualityOfService.swift in Sources */,
 				F03F56A428045A4100360B65 /* Quality of service.swift in Sources */,
 			);
