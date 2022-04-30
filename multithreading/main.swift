@@ -8,6 +8,7 @@
 import Foundation
 
 /// # The swift developers
+
 /// 1. Thread & Pthread
 //unixPosix()
 //threadAndPthread()
@@ -42,5 +43,15 @@ array.append("2 thread")
 print(array)
 */
 
-/// NSRecursiveLock & Mutex Recursive lock 4
+/// 4. NSRecursiveLock & Mutex Recursive lock
+/*
+var recursive = RecursiveMutexTest()
+recursive.firstTask() // (Это всё один поток)
 
+var thread = RecursiveThread()
+thread.start // start() от класса Thread
+*/
+
+/// 5. NSCondition,NSLocking, pthread_cond_t
+//NSConditonCCode()
+//NSConditionSwiftCode()

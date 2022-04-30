@@ -1,5 +1,5 @@
 //
-//  Problems.swift
+//  Troubles.swift
 //  multithreading
 //
 //  Created by Егор Бадмаев on 18.04.2022.
