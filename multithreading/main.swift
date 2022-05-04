@@ -55,3 +55,8 @@ thread.start // start() от класса Thread
 /// 5. NSCondition,NSLocking, pthread_cond_t
 //NSConditonCCode()
 //NSConditionSwiftCode()
+
+/// 6. ReadWriteLock, SpinLock, UnfairLock, Synchronized in Objc
+
+/// 7. GCD,Concurrent queues, Serial queues,sync-async
+
