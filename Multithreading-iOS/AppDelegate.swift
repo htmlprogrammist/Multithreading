@@ -47,7 +47,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        testOperation()
 //        testBlockOperation()
 //        testOperationQueue()
-        overridingThreadAndOperation()
+//        overridingThreadAndOperation()
+        /// 16 - BlockOperation & WaitUntilFinished & OperationCancel
+//        cancelOperationMethod() // Отмена операции
+//        waitOperationTestMethod() // WaitUntil
+        completionBlockTestMethod() // CompletionBlock
         
         let navVC = UINavigationController(rootViewController: vc)
         navVC.navigationBar.prefersLargeTitles = true

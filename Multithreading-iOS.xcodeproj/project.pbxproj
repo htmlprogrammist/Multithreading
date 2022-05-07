@@ -15,6 +15,7 @@
 		F0C032012826E2A900D8CFA9 /* Barrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C032002826E2A900D8CFA9 /* Barrier.swift */; };
 		F0C032042826E74500D8CFA9 /* DispatchSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C032032826E74500D8CFA9 /* DispatchSource.swift */; };
 		F0C0320B282716F000D8CFA9 /* Operation+LifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C0320A282716F000D8CFA9 /* Operation+LifeCycle.swift */; };
+		F0C0320D28271BC400D8CFA9 /* BlockOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C0320C28271BC400D8CFA9 /* BlockOperation.swift */; };
 		F0D9A3D428268FA200115A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9A3D328268FA200115A68 /* AppDelegate.swift */; };
 		F0D9A3D828268FA200115A68 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9A3D728268FA200115A68 /* FirstViewController.swift */; };
 		F0D9A3DD28268FA700115A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D9A3DC28268FA700115A68 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		F0C032002826E2A900D8CFA9 /* Barrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barrier.swift; sourceTree = "<group>"; };
 		F0C032032826E74500D8CFA9 /* DispatchSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchSource.swift; sourceTree = "<group>"; };
 		F0C0320A282716F000D8CFA9 /* Operation+LifeCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Operation+LifeCycle.swift"; path = "multithreading/The Swift Developers/Operation/Operation+LifeCycle.swift"; sourceTree = SOURCE_ROOT; };
+		F0C0320C28271BC400D8CFA9 /* BlockOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockOperation.swift; sourceTree = "<group>"; };
 		F0D9A3D028268FA200115A68 /* Multithreading-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multithreading-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D9A3D328268FA200115A68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0D9A3D728268FA200115A68 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		F0C032062826F58200D8CFA9 /* Lesson 16 */ = {
 			isa = PBXGroup;
 			children = (
+				F0C0320C28271BC400D8CFA9 /* BlockOperation.swift */,
 			);
 			path = "Lesson 16";
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				F0C031FC2826C5EA00D8CFA9 /* DispatchGroupViewController.swift in Sources */,
 				F0D9A3D428268FA200115A68 /* AppDelegate.swift in Sources */,
 				F0C031F32826B1F600D8CFA9 /* Semaphore.swift in Sources */,
+				F0C0320D28271BC400D8CFA9 /* BlockOperation.swift in Sources */,
 				F0C031F82826C15700D8CFA9 /* ViewController.swift in Sources */,
 				F0D9A3EE28269CC300115A68 /* DispatchWorkItems.swift in Sources */,
 			);
