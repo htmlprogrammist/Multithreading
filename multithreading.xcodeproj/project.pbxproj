@@ -17,6 +17,7 @@
 		F0B1F36A280D42C9003A4077 /* Synchronisation & Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1F369280D42C9003A4077 /* Synchronisation & Mutex.swift */; };
 		F0B1F36C280D4754003A4077 /* NSRecursiveLock & Mutex Recursive lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1F36B280D4754003A4077 /* NSRecursiveLock & Mutex Recursive lock.swift */; };
 		F0B1F36F280D5568003A4077 /* Troubles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1F36E280D5568003A4077 /* Troubles.swift */; };
+		F0B838CC2827220700C391B2 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B838CB2827220700C391B2 /* Dependencies.swift */; };
 		F0C032082827039600D8CFA9 /* Operation+LifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C032072827039600D8CFA9 /* Operation+LifeCycle.swift */; };
 		F0D1E93528240B5A007E4275 /* Semaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D1E93428240B5A007E4275 /* Semaphore.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		F0B1F369280D42C9003A4077 /* Synchronisation & Mutex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Synchronisation & Mutex.swift"; sourceTree = "<group>"; };
 		F0B1F36B280D4754003A4077 /* NSRecursiveLock & Mutex Recursive lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSRecursiveLock & Mutex Recursive lock.swift"; sourceTree = "<group>"; };
 		F0B1F36E280D5568003A4077 /* Troubles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Troubles.swift; sourceTree = "<group>"; };
+		F0B838CB2827220700C391B2 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		F0C032072827039600D8CFA9 /* Operation+LifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operation+LifeCycle.swift"; sourceTree = "<group>"; };
 		F0D1E93428240B5A007E4275 /* Semaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semaphore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				F0C032072827039600D8CFA9 /* Operation+LifeCycle.swift */,
+				F0B838CB2827220700C391B2 /* Dependencies.swift */,
 			);
 			path = Operation;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				F0C032082827039600D8CFA9 /* Operation+LifeCycle.swift in Sources */,
 				F04450A72821159D0023B468 /* GCD.swift in Sources */,
 				F03F569728044BEF00360B65 /* main.swift in Sources */,
+				F0B838CC2827220700C391B2 /* Dependencies.swift in Sources */,
 				F0B1F36C280D4754003A4077 /* NSRecursiveLock & Mutex Recursive lock.swift in Sources */,
 				F03F56A228044D2200360B65 /* Thread & Pthread.swift in Sources */,
 				F0B1F36A280D42C9003A4077 /* Synchronisation & Mutex.swift in Sources */,

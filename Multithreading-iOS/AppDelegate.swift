@@ -51,7 +51,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /// 16 - BlockOperation & WaitUntilFinished & OperationCancel
 //        cancelOperationMethod() // Отмена операции
 //        waitOperationTestMethod() // WaitUntil
-        completionBlockTestMethod() // CompletionBlock
+//        completionBlockTestMethod() // CompletionBlock
         
         let navVC = UINavigationController(rootViewController: vc)
         navVC.navigationBar.prefersLargeTitles = true
