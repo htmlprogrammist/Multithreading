@@ -35,7 +35,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let vc = DispatchGroupViewController()
         /// 13 - GCD Dispatch Barrier
 //        raceConditionInBarrier()
-        testBarrier()
+//        testBarrier()
+        /// 14 - GCD Dispatch Source
+        dispatchSourceTest()
         
         let navVC = UINavigationController(rootViewController: vc)
         navVC.navigationBar.prefersLargeTitles = true
