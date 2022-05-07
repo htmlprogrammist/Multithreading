@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         /// 9 - GCD Async After, Concurrent Perform, Initially Inactive
 //        let vc = FirstViewController()
+        
         /// 10 - GCD DispatchWorkItem, notify
 //        let vc = EifelTowerViewController()
         
@@ -27,17 +28,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        semaphoreTest2()
         /*let semaphoreTest = SemaphoreTest()
         semaphoreTest.startAllThread()*/
+        
         /// 12 - GCD Dispatch Group
 //        let dispatchGroupTest1 = DispatchGroupTest1()
 //        dispatchGroupTest1.loadInfo()
 //        let dispatchGroupTest2 = DispatchGroupTest2()
 //        dispatchGroupTest2.loadInfo()
 //        let vc = DispatchGroupViewController()
+        
         /// 13 - GCD Dispatch Barrier
 //        raceConditionInBarrier()
 //        testBarrier()
+        
         /// 14 - GCD Dispatch Source
-        dispatchSourceTest()
+//        dispatchSourceTest()
+        
+        /// 15 - Operation & OperationQueue & OperationBlock
+//        testOperation()
+//        testBlockOperation()
+//        testOperationQueue()
+        overridingThreadAndOperation()
         
         let navVC = UINavigationController(rootViewController: vc)
         navVC.navigationBar.prefersLargeTitles = true
