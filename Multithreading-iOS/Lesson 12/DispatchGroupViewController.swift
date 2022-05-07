@@ -18,7 +18,6 @@ final class DispatchGroupViewController: UIViewController {
                      "https://cdn.bolgegundem.com/d/news/1042559.jpg",
                      "https://f1tracktalk.com/wp-content/uploads/2020/03/1288431434.jpg"
     ]
-    public var imageViews = [UIImageView]()
     
     private lazy var imagesStackView: UIStackView = {
         let stackView = UIStackView()
@@ -36,6 +35,7 @@ final class DispatchGroupViewController: UIViewController {
         
         setupView()
         asyncGroup()
+        asyncURLSession()
     }
     
     // метод, осуществляющий асинхронную загрузку изображений
@@ -58,7 +58,7 @@ final class DispatchGroupViewController: UIViewController {
     func asyncGroup() {
         let group = DispatchGroup()
         
-        for i in 0..<imageUrls.count {
+        for i in 0..<4 {
             group.enter()
             asyncLoadImage(imageURL: URL(string: imageUrls[i])!,
                            runQueue: .global(),
@@ -73,7 +73,22 @@ final class DispatchGroupViewController: UIViewController {
                 group.leave()
             }
         }
-        // 30:50
+    }
+    
+    // сделаем всё то же самое, только без групп и через URLSession, чтобы понять, как классно работать с DispatchGroup
+    func asyncURLSession() {
+        for i in 4..<8 {
+            let url = URL(string: imageUrls[i])!
+//            let request
+            let task = URLSession.shared.dataTask(with: url) { data, response, error in
+                DispatchQueue.main.async {
+                    let imageView = UIImageView(image: UIImage(data: data!))
+                    imageView.contentMode = .scaleAspectFit
+                    self.imagesStackView.addArrangedSubview(imageView)
+                }
+            }
+            task.resume()
+        }
     }
     
     private func setupView() {

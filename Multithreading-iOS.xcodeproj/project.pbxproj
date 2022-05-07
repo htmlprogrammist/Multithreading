@@ -66,6 +66,13 @@
 			path = "Lesson 12";
 			sourceTree = "<group>";
 		};
+		F0C031FF2826D49900D8CFA9 /* Lesson 13 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 13";
+			sourceTree = "<group>";
+		};
 		F0D9A3C728268FA200115A68 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +98,7 @@
 				F0D9A3EA282699FD00115A68 /* Lesson 10 */,
 				F0C031F12826B1E500D8CFA9 /* Lesson 11 */,
 				F0C031F42826C10900D8CFA9 /* Lesson 12 */,
+				F0C031FF2826D49900D8CFA9 /* Lesson 13 */,
 				F0D9A3DC28268FA700115A68 /* Assets.xcassets */,
 				F0D9A3DE28268FA700115A68 /* LaunchScreen.storyboard */,
 				F0D9A3E128268FA700115A68 /* Info.plist */,
