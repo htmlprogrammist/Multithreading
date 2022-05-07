@@ -56,11 +56,5 @@ thread.start // start() от класса Thread
 //NSConditonCCode()
 //NSConditionSwiftCode()
 
-/// 6. ReadWriteLock, SpinLock, UnfairLock, Synchronized in Objc
+/// 15. Operation & OperationQueue & OperationBlock
 
-/// 7. GCD,Concurrent queues, Serial queues,sync-async
-
-/// 9. GCD Async After, Concurrent Perform, Initially Inactive
-afterBlock(seconds: 2, queue: .main) {
-    print("I am in \(Thread.current)")
-}
