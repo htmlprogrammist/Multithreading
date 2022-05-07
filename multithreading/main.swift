@@ -60,3 +60,7 @@ thread.start // start() от класса Thread
 
 /// 7. GCD,Concurrent queues, Serial queues,sync-async
 
+/// 9. GCD Async After, Concurrent Perform, Initially Inactive
+afterBlock(seconds: 2, queue: .main) {
+    print("I am in \(Thread.current)")
+}

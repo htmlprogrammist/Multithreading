@@ -17,6 +17,8 @@
 		F0B1F36A280D42C9003A4077 /* Synchronisation & Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1F369280D42C9003A4077 /* Synchronisation & Mutex.swift */; };
 		F0B1F36C280D4754003A4077 /* NSRecursiveLock & Mutex Recursive lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1F36B280D4754003A4077 /* NSRecursiveLock & Mutex Recursive lock.swift */; };
 		F0B1F36F280D5568003A4077 /* Troubles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1F36E280D5568003A4077 /* Troubles.swift */; };
+		F0D1E93528240B5A007E4275 /* Semaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D1E93428240B5A007E4275 /* Semaphore.swift */; };
+		F0D9A3C628268E0B00115A68 /* AsyncAfter+ConcurrentPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9A3C528268E0B00115A68 /* AsyncAfter+ConcurrentPlatform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +46,8 @@
 		F0B1F369280D42C9003A4077 /* Synchronisation & Mutex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Synchronisation & Mutex.swift"; sourceTree = "<group>"; };
 		F0B1F36B280D4754003A4077 /* NSRecursiveLock & Mutex Recursive lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSRecursiveLock & Mutex Recursive lock.swift"; sourceTree = "<group>"; };
 		F0B1F36E280D5568003A4077 /* Troubles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Troubles.swift; sourceTree = "<group>"; };
+		F0D1E93428240B5A007E4275 /* Semaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semaphore.swift; sourceTree = "<group>"; };
+		F0D9A3C528268E0B00115A68 /* AsyncAfter+ConcurrentPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AsyncAfter+ConcurrentPlatform.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				F04450A62821159D0023B468 /* GCD.swift */,
+				F0D1E93428240B5A007E4275 /* Semaphore.swift */,
+				F0D9A3C528268E0B00115A68 /* AsyncAfter+ConcurrentPlatform.swift */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -194,8 +200,10 @@
 				F0B1F36C280D4754003A4077 /* NSRecursiveLock & Mutex Recursive lock.swift in Sources */,
 				F03F56A228044D2200360B65 /* Thread & Pthread.swift in Sources */,
 				F0B1F36A280D42C9003A4077 /* Synchronisation & Mutex.swift in Sources */,
+				F0D9A3C628268E0B00115A68 /* AsyncAfter+ConcurrentPlatform.swift in Sources */,
 				F0ADA3D8281C3636007A53F1 /* NSCondition.swift in Sources */,
 				F03F56A728045BB900360B65 /* QualityOfService.swift in Sources */,
+				F0D1E93528240B5A007E4275 /* Semaphore.swift in Sources */,
 				F0B1F36F280D5568003A4077 /* Troubles.swift in Sources */,
 				F03F56A428045A4100360B65 /* Quality of service.swift in Sources */,
 				F07E65F8281D96D500A95E0B /* Locks.swift in Sources */,
