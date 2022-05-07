@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let window = UIWindow(frame: UIScreen.main.bounds)
-//        let vc = ViewController()
+        let vc = ViewController()
         
         /// 9 - GCD Async After, Concurrent Perform, Initially Inactive
 //        let vc = FirstViewController()
@@ -32,7 +32,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        dispatchGroupTest1.loadInfo()
 //        let dispatchGroupTest2 = DispatchGroupTest2()
 //        dispatchGroupTest2.loadInfo()
-        let vc = DispatchGroupViewController()
+//        let vc = DispatchGroupViewController()
+        /// 13 - GCD Dispatch Barrier
+//        raceConditionInBarrier()
+        testBarrier()
         
         let navVC = UINavigationController(rootViewController: vc)
         navVC.navigationBar.prefersLargeTitles = true
