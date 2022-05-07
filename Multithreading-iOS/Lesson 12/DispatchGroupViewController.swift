@@ -35,14 +35,49 @@ final class DispatchGroupViewController: UIViewController {
         view.backgroundColor = .systemBackground
         
         setupView()
+        asyncGroup()
+    }
+    
+    // метод, осуществляющий асинхронную загрузку изображений
+    func asyncLoadImage(imageURL: URL, runQueue: DispatchQueue, completionQueue: DispatchQueue, completion: @escaping (UIImage?, Error?) -> Void) {
+        runQueue.async {
+            do {
+                let data = try Data(contentsOf: imageURL)
+                completionQueue.async {
+                    completion(UIImage(data: data), nil)
+                }
+            } catch let error {
+                completionQueue.async {
+                    completion(nil, error)
+                }
+            }
+        }
+    }
+    
+    // метод, который будет группировать группу асинхронных операций
+    func asyncGroup() {
+        let group = DispatchGroup()
+        
+        for i in 0..<imageUrls.count {
+            group.enter()
+            asyncLoadImage(imageURL: URL(string: imageUrls[i])!,
+                           runQueue: .global(),
+                           completionQueue: .main) { image, error in
+                guard error == nil else { return }
+                
+                if let image = image {
+                    let imageView = UIImageView(image: image)
+                    imageView.contentMode = .scaleAspectFit
+                    self.imagesStackView.addArrangedSubview(imageView)
+                }
+                group.leave()
+            }
+        }
+        // 30:50
     }
     
     private func setupView() {
         view.addSubview(imagesStackView)
-        
-        for _ in 0..<8 {
-            imageViews.append(UIImageView(contentMode: .scaleAspectFit))
-        }
         
         NSLayoutConstraint.activate([
             imagesStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
