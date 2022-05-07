@@ -61,9 +61,3 @@ class DispatchGroupTest2 { // параллельная очередь
         }
     }
 }
-
-let imageUrls = ["https://i0.wp.com/levencovka.ru/wp-content/uploads/2020/07/d5.jpg", // Первая картинка по запросу "Дрифт"
-                 "https://phonoteka.org/uploads/posts/2021-04/1618510008_4-p-fon-drift-6.jpg", // Рандом челики
-                 "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/170e2b91791745.5e3ade6c98042.jpg", // Дамир и Федор
-                 "https://avatars.mds.yandex.net/get-zen_doc/2442582/pub_5f2e7a61e3537762199f33fb_5f313553a54190704e1eea98/scale_1200" // Гоча с Аркашей
-]
