@@ -20,6 +20,7 @@ final class DispatchGroupViewController: UIViewController {
     ]
     
     private lazy var imagesStackView: UIStackView = {
+        // UIStackView is not scrollable, you need to add UIScrollView
         let stackView = UIStackView()
         stackView.axis = .vertical
         stackView.alignment = .center
