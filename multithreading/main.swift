@@ -58,3 +58,6 @@ thread.start // start() от класса Thread
 
 /// 15. Operation & OperationQueue & OperationBlock
 
+/// # Вопросы и задачи на iOS-собеседовании
+firstMethod()
+//secondMethod()
