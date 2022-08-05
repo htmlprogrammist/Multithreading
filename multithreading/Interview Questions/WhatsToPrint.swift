@@ -7,10 +7,23 @@
 
 import Foundation
 
-/*
+/**
  Что выведется в консоль первым?
  
  [GCD - Каверзные вопросы и задачи на iOS-Собеседование - Mad Brains Техно](https://youtu.be/uEeFqIUXJcE?t=24)
+ 
+ Ответ:
+ ```
+ A
+ F
+ B
+ E
+ G
+ C
+ D
+ ```
+ Объяснение:
+ 
  */
 func firstMethod() {
     print("A")
@@ -38,6 +51,24 @@ func firstMethod() {
     }
 }
 
+/**
+ Что выведется в консоль первым?
+ 
+ [GCD - Каверзные вопросы и задачи на iOS-Собеседование - Mad Brains Техно](https://youtu.be/uEeFqIUXJcE?t=24)
+ 
+ Ответ:
+ ```
+ A
+ I
+ B
+ H
+ F
+ C
+ G
+ D
+ E
+ ```
+ */
 func secondMethod() {
     print("A")
     

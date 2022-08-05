@@ -53,6 +53,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        waitOperationTestMethod() // WaitUntil
 //        completionBlockTestMethod() // CompletionBlock
         
+        /// # Вопросы и задачи с собеседований
+//        firstMethod()
+        secondMethod()
+        
         let navVC = UINavigationController(rootViewController: vc)
         navVC.navigationBar.prefersLargeTitles = true
         window.rootViewController = navVC
